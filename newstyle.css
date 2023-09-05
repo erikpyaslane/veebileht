@@ -1,0 +1,67 @@
+body {
+
+    border: 2px solid rgb(88, 86, 86);
+
+}
+
+header .header-banner {
+
+    background-image: url("img/header.png");
+    width: 100%;
+    height: calc(100px);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: table;
+    text-align: center;
+    
+}
+
+header h1 {
+
+    font-family: "Gentium Basic", serif;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: rgb(88, 86, 86);
+    
+}
+
+header h2 {
+    
+    font-family: "Open Sans", sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-style: italic;
+    color: rgb(88, 86, 86);
+
+}
+
+.menu-container {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.menu-container a {
+
+    font-size: 25px;
+    text-transform: uppercase;
+    color: rgb(88, 86, 86);
+    text-decoration: none;
+
+}
+
+.food-banner {
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+
+}

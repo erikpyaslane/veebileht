@@ -289,9 +289,11 @@ footer {
     }
 
     .retseptid h2 {
+
         font-weight: normal;
         font-size: 30px;
         text-transform: uppercase;
+        
     }
 
     .gallery-container {
@@ -330,4 +332,3 @@ footer {
     }
 
 }
-

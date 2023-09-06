@@ -1,0 +1,238 @@
+body {
+
+    border: 2px solid rgb(88, 86, 86);
+
+}
+
+header .header-banner {
+
+    background-image: url("img/header.png");
+    width: 100%;
+    height: calc(100px);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: table;
+    text-align: center;
+    
+}
+
+header h1 {
+
+    font-family: "Gentium Basic", serif;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: rgb(88, 86, 86);
+    
+}
+
+header h2 {
+    
+    font-family: "Open Sans", sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-style: italic;
+    color: rgb(88, 86, 86);
+
+}
+
+.menu-container {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.menu-container a {
+
+    font-size: 25px;
+    text-transform: uppercase;
+    color: rgb(88, 86, 86);
+    text-decoration: none;
+
+}
+
+.food-banner {
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+
+}
+
+.h2-title {
+
+    font-size: 25px;
+    text-transform: uppercase;
+    color: rgb(88, 86, 86);
+    text-decoration: none;
+
+}
+
+.meist-container {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    align-items: top;
+
+}
+
+.meist-container > div {
+
+    flex: 1 0 50%;
+    
+}
+
+.meist-container > div p{
+
+    color: rgb(88, 86, 86);
+    font-size: 20px;
+    
+
+}
+
+.meist-container > div:first-child {
+
+    flex: 0 1 100%;
+
+}
+
+.meist-banner {
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+
+}
+
+.gallery-container {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.image-container {
+
+    position: relative;
+    text-align: center;
+
+}
+
+.image-container img {
+
+    max-width: 80%;
+    left: 10%;
+    right: 10%;
+    height: auto;
+    border-radius: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+
+.image-description {
+
+    position: absolute;
+    font-size: 30px;
+    top: 30%;
+    bottom: 50%;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(88, 86, 86);
+    transition: .5s ease;
+
+}
+
+.image-container:hover .image-description {
+
+    visibility: visible;
+    opacity: 1;
+
+}
+
+.image-container:hover img {
+
+    opacity: 30%;
+
+}
+
+footer {
+    
+    background-color: rgb(163, 163, 163);
+    margin-top: 20px;
+    overflow: hidden;
+    border: 0px;
+
+}
+
+.footer-container {
+
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.info-container {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    line-height: 0em;
+
+}
+
+.info-container p{
+
+    margin: 8px;
+
+}
+
+.logo-container {
+
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
+    justify-content: center;
+
+}
+
+.logo-container img {
+
+    max-width: 40px;
+    max-height: 40px;
+    margin: 10px;
+    
+}

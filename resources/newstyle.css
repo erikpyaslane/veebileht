@@ -1,6 +1,6 @@
 body {
 
-    border: 2px solid rgb(88, 86, 86);
+    border: 2px solid rgb(163, 163, 163);
 
 }
 
@@ -39,6 +39,11 @@ header h2 {
 
 }
 
+.retseptid {
+
+    display: none;
+}
+
 .menu-container {
 
     display: flex;
@@ -59,7 +64,7 @@ header h2 {
 .food-banner {
 
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     margin-left: 5%;
     margin-right: 5%;
     width: 90%;
@@ -115,6 +120,12 @@ header h2 {
     margin-left: 5%;
     margin-right: 5%;
     width: 90%;
+
+}
+
+.retseptid {
+
+    display: none;
 
 }
 
@@ -187,7 +198,7 @@ footer {
     background-color: rgb(163, 163, 163);
     margin-top: 20px;
     overflow: hidden;
-    border: 0px;
+    border-style: none;
 
 }
 
@@ -236,3 +247,87 @@ footer {
     margin: 10px;
     
 }
+
+@media only screen and (max-width: 850px) {
+
+    .meist-container {
+
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        align-items: center;
+        justify-content: center;
+    
+    }
+
+    
+    .meist-container > div p{
+    
+        color: rgb(88, 86, 86);
+        font-size: 20px;
+        text-align: center;   
+    
+    }
+    
+    .meist-banner {
+    
+        display: none;
+        color: rgb(88, 86, 86);
+        font-size: 20px;
+    
+    }
+
+    .retseptid {
+
+        display: inline;
+        color: rgb(88, 86, 86);
+        text-decoration: none;
+        text-align: center;
+    
+    }
+
+    .retseptid h2 {
+        font-weight: normal;
+        font-size: 30px;
+        text-transform: uppercase;
+    }
+
+    .gallery-container {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-left: 25%;
+        margin-right: 25%;
+        width: 50%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    
+    }
+
+}
+
+@media only screen and (max-width: 950px) and (min-width: 850px) {
+
+    .image-description {
+
+        font-size: 23px;
+    
+    }
+
+}
+
+@media only screen and (max-width: 850px) and (min-width: 650px) {
+
+    .gallery-container {
+
+        width: 40%;
+        margin-left: 30%;
+        margin-right: 30%;
+
+    }
+
+}
+
